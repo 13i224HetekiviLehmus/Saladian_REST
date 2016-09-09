@@ -11,9 +11,9 @@
 |
 */
 
-$factory->define(App\User::class, function (Faker\Generator $faker) {
+$factory->define('App\Score', function ($faker) {
     return [
         'name' => $faker->name,
-        'email' => $faker->email,
+        'score' => $faker->numberBetween($min = 0, $max = 9000),
     ];
 });
