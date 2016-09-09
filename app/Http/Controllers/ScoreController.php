@@ -23,7 +23,13 @@ class ScoreController extends Controller{
 			 $score->name = $request->name;
 			 $score->score = intval($request->score);
 
-			 return  $score->save();
+			if($score->save())
+			{
+				return response()->json(1);
+			}
+			else {
+				return response()->json(0);
+			}
    }
 
 }
