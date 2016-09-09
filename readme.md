@@ -6,11 +6,12 @@ REST API for Saladian project.
 
 ## Usage
 
-Get all:
-	- http://vanillasky.ddns.me:5555
+- #### Get all:
+	-	http://vanillasky.ddns.me:5555
 
-Create:
-	- http://vanillasky.ddns.me:5555/create?name=<name here>&score=<score>
+
+- #### Create:
+	- http://vanillasky.ddns.me:5555/create?name=NAMEHERE&score=SCOREHERE
 
 
 
