@@ -1,4 +1,33 @@
-# Lumen PHP Framework
+# Saladian_REST
+
+REST API for Saladian project.
+
+
+
+## Usage
+
+Get all:
+	- http://vanillasky.ddns.me:5555
+
+Create:
+	- http://vanillasky.ddns.me:5555/create?name=<name here>&score=<score>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Built with
+
+## Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
 [![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
