@@ -1,6 +1,6 @@
 # Saladian_REST
 
-REST API for Saladian project.
+REST API for [Saladian](https://github.com/13i224HetekiviLehmus/Saladian) project.
 
 
 
