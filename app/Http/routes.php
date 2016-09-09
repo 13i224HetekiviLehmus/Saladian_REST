@@ -11,6 +11,7 @@
 |
 */
 
-$app->get('/', function () use ($app) {
-    return $app->version();
-});
+
+$app->get('/','App\Http\Controllers\ScoreController@index');
+
+$app->get('/create','App\Http\Controllers\ScoreController@createScore');
