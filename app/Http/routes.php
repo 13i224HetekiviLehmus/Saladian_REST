@@ -12,6 +12,6 @@
 */
 
 
-$app->get('/','App\Http\Controllers\ScoreController@index');
+$app->get('/','ScoreController@index');
 
-$app->get('/create','App\Http\Controllers\ScoreController@createScore');
+$app->get('/create','ScoreController@createScore');

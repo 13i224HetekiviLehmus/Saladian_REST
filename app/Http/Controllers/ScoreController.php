@@ -12,19 +12,18 @@ class ScoreController extends Controller{
 
 
    public function index(){
-
-       $Scores  = Score::orderBy('score','desc')->get();
-
-       return response()->json($Scores);
-
+       $scores  = Score::orderBy('score','desc')->get();
+       return response()->json($scores);
    }
 
    public function createScore(Request $request){
 
-       $Score = Score::create($request->all());
+       $score = new Score;
 
-       return response()->json($Score);
+			 $score->name = $request->name;
+			 $score->score = intval($request->score);
 
+			 return  $score->save();
    }
 
 }
