@@ -11,9 +11,15 @@ use Illuminate\Http\Request;
 class ScoreController extends Controller{
 
 
-   public function index(){
-       $scores  = Score::orderBy('score','desc')->get();
-       return response()->json($scores);
+   public function index(Request $request){
+		 if(isset($request->limit))
+		 {
+			 $scores  = Score::orderBy('score','desc')->take(intval($request->limit))->get();
+		 }
+		 else {
+			 $scores  = Score::orderBy('score','desc')->get();
+		 }
+		 return response()->json($scores);
    }
 
    public function createScore(Request $request){
