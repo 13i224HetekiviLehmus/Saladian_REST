@@ -8,7 +8,7 @@ REST API for [Saladian](https://github.com/13i224HetekiviLehmus/Saladian) projec
 
 - #### Get all:
 	-	http://vanillasky.ddns.me:5555
-	- http://vanillasky.ddns.me:5555/?limit=HOW_MANY
+	- http://vanillasky.ddns.me:5555/limit/HOW_MANY
 
 
 - #### Create:

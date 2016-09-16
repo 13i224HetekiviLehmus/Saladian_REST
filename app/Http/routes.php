@@ -13,5 +13,7 @@
 
 
 $app->get('/','ScoreController@index');
+$app->get('/limit/{limit}','ScoreController@limit');
+
 
 $app->get('/create','ScoreController@createScore');
