@@ -7,12 +7,12 @@ REST API for [Saladian](https://github.com/13i224HetekiviLehmus/Saladian) projec
 ## Usage
 
 - #### Get all:
-	-	http://vanillasky.ddns.me:5555
-	- http://vanillasky.ddns.me:5555/limit/HOW_MANY
+	-	http://vanillasky.ddns.me:444
+	- http://vanillasky.ddns.me:444/limit/HOW_MANY
 
 
 - #### Create:
-	- http://vanillasky.ddns.me:5555/create?name=NAMEHERE&score=SCOREHERE
+	- http://vanillasky.ddns.me:444/create?name=NAMEHERE&score=SCOREHERE
 
 
 
