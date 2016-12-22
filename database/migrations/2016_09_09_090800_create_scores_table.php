@@ -17,7 +17,7 @@ class CreateScoresTable extends Migration
             $table->increments('id');
             $table->bigInteger('score')->unsigned()->index();
             $table->string('name')->index();
-						//$table->timestamps();
+						$table->timestamps();
         });
     }
 
